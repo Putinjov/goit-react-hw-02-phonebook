@@ -41,7 +41,7 @@ export class App extends Component {
       <div className='contacts'>
         <h1>Phone Book</h1>
         <ContactForm addContact={this.addContact} />
-        <Filter filter={filter} handleFilterChange={this.handleFilterChange} />
+        <Filter filter={ filter} handleFilterChange={this.handleFilterChange} />
         <h2>Contacts</h2>
         <ContactList
           contacts={contacts}
